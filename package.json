@@ -1,0 +1,21 @@
+{
+  "name": "libra",
+  "version": "2.0.0",
+  "description": "Libra logging utility originally intended for private usage.",
+  "main": "src/index.js",
+  "module": "src/index.esm.js",
+  "scripts": {
+    "test:color": "node ./tests/color.js"
+  },
+  "keywords": [
+    "log",
+    "utility",
+    "logging",
+    "color log"
+  ],
+  "author": "JDS <jdstubbs64@gmail.com>",
+  "license": "LICENSE.md",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
