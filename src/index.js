@@ -85,8 +85,8 @@ class Libra {
    */
   info(...text) {
     console.log(
-      this.time? this.time(): defaults.time(),
-      this.name? this.name(): defaults.name(),
+      this.time ? this.time() : defaults.time(),
+      this.name ? this.name() : defaults.name(),
       Libra.StyleProvider.bold.bgHex('#007ADA')(' INFO '),
       ...text
     )
@@ -104,8 +104,8 @@ class Libra {
    */
   warning(...text) {
     console.log(
-      this.time? this.time(): defaults.time(),
-      this.name? this.name(): defaults.name(),
+      this.time ? this.time() : defaults.time(),
+      this.name ? this.name() : defaults.name(),
       Libra.StyleProvider.bold.bgHex('#F48800')(' WARN '),
       ...text
     )
@@ -123,8 +123,8 @@ class Libra {
    */
   error(...text) {
     console.log(
-      this.time? this.time(): defaults.time(),
-      this.name? this.name(): defaults.name(),
+      this.time ? this.time() : defaults.time(),
+      this.name ? this.name() : defaults.name(),
       Libra.StyleProvider.bold.bgHex('#B90000')(' ERR! '),
       ...text
     )
@@ -142,8 +142,8 @@ class Libra {
    */
   success(...text) {
     console.log(
-      this.time? this.time(): defaults.time(),
-      this.name? this.name(): defaults.name(),
+      this.time ? this.time() : defaults.time(),
+      this.name ? this.name() : defaults.name(),
       Libra.StyleProvider.bold.bgHex('#088B22')('  OK  '),
       ...text
     )
@@ -161,8 +161,8 @@ class Libra {
    */
   debug(...text) {
     console.log(
-      this.time? this.time(): defaults.time(),
-      this.name? this.name(): defaults.name(),
+      this.time ? this.time() : defaults.time(),
+      this.name ? this.name() : defaults.name(),
       Libra.StyleProvider.bold.bgHex('#BF00E8')(' DBUG '),
       ...text
     )
